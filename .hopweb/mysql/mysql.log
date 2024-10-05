@@ -1,0 +1,306 @@
+2024-10-02 15:30:06 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 18602
+2024-10-02 15:30:07 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-02 15:30:07 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-02 15:30:07 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-02 15:30:07 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-02 15:30:07 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-02 15:30:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-02 15:30:07 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-02 15:30:07 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-02 15:30:07 0 [Note] InnoDB: Starting final batch to recover 8 pages from redo log.
+2024-10-02 15:30:07 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-02 15:30:07 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-02 15:30:07 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-02 15:30:07 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-02 15:30:07 0 [Note] InnoDB: log sequence number 47030; transaction id 16
+2024-10-02 15:30:07 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-02 15:30:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-02 15:30:07 0 [Note] InnoDB: Buffer pool(s) load completed at 241002 15:30:07
+2024-10-02 15:30:07 0 [Note] Server socket created on IP: '::'.
+2024-10-02 15:30:07 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-02 15:30:07 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-02 21:27:15 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 28902
+2024-10-02 21:27:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-02 21:27:16 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-02 21:27:16 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-02 21:27:16 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-02 21:27:16 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-02 21:27:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-02 21:27:16 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-02 21:27:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-02 21:27:16 0 [Note] InnoDB: Starting final batch to recover 8 pages from redo log.
+2024-10-02 21:27:16 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-02 21:27:16 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-02 21:27:16 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-02 21:27:16 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-02 21:27:16 0 [Note] InnoDB: log sequence number 47046; transaction id 16
+2024-10-02 21:27:16 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-02 21:27:16 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-02 21:27:16 0 [ERROR] libmariadbd-10.11.4.so: Warning: Can't copy ownership for file './ddl_recovery-backup.log' (Errcode: 1 "Operation not permitted")
+2024-10-02 21:27:16 0 [Note] InnoDB: Buffer pool(s) load completed at 241002 21:27:16
+2024-10-02 21:27:16 0 [Note] Server socket created on IP: '::'.
+2024-10-02 21:27:16 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-02 21:27:16 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-02 21:57:16 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 1424
+2024-10-02 21:57:16 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-02 21:57:16 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-02 21:57:16 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-02 21:57:16 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-02 21:57:16 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-02 21:57:16 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-02 21:57:16 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-02 21:57:16 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-02 21:57:16 0 [Note] InnoDB: Starting final batch to recover 50 pages from redo log.
+2024-10-02 21:57:16 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-02 21:57:16 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-02 21:57:16 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-02 21:57:17 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-02 21:57:17 0 [Note] InnoDB: log sequence number 99457; transaction id 71
+2024-10-02 21:57:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-02 21:57:17 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-02 21:57:17 0 [Note] InnoDB: Buffer pool(s) load completed at 241002 21:57:17
+2024-10-02 21:57:17 0 [Note] Server socket created on IP: '::'.
+2024-10-02 21:57:17 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-02 21:57:17 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-02 22:27:23 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 6477
+2024-10-02 22:27:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-02 22:27:24 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-02 22:27:24 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-02 22:27:24 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-02 22:27:24 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-02 22:27:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-02 22:27:24 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-02 22:27:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-02 22:27:24 0 [Note] InnoDB: Starting final batch to recover 61 pages from redo log.
+2024-10-02 22:27:24 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-02 22:27:24 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-02 22:27:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-02 22:27:24 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-02 22:27:24 0 [Note] InnoDB: log sequence number 134763; transaction id 101
+2024-10-02 22:27:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-02 22:27:24 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-02 22:27:24 0 [Note] InnoDB: Buffer pool(s) load completed at 241002 22:27:24
+2024-10-02 22:27:24 0 [ERROR] libmariadbd-10.11.4.so: Warning: Can't copy ownership for file './ddl_recovery-backup.log' (Errcode: 1 "Operation not permitted")
+2024-10-02 22:27:24 0 [Note] Server socket created on IP: '::'.
+2024-10-02 22:27:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-02 22:27:24 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-03 11:16:22 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 15796
+2024-10-03 11:16:22 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-03 11:16:22 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-03 11:16:22 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-03 11:16:22 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-03 11:16:22 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-03 11:16:22 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-03 11:16:22 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-03 11:16:23 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-03 11:16:23 0 [Note] InnoDB: Starting final batch to recover 61 pages from redo log.
+2024-10-03 11:16:23 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-03 11:16:23 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-03 11:16:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-03 11:16:23 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-03 11:16:23 0 [Note] InnoDB: log sequence number 134847; transaction id 101
+2024-10-03 11:16:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-03 11:16:23 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 11:16:23 0 [ERROR] libmariadbd-10.11.4.so: Warning: Can't copy ownership for file './ddl_recovery-backup.log' (Errcode: 1 "Operation not permitted")
+2024-10-03 11:16:23 0 [Note] InnoDB: Buffer pool(s) load completed at 241003 11:16:23
+2024-10-03 11:16:23 0 [Note] Server socket created on IP: '::'.
+2024-10-03 11:16:23 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-03 11:16:23 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-03 11:58:20 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 19312
+2024-10-03 11:58:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-03 11:58:20 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-03 11:58:20 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-03 11:58:20 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-03 11:58:20 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-03 11:58:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-03 11:58:20 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-03 11:58:20 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-03 11:58:20 0 [Note] InnoDB: Starting final batch to recover 64 pages from redo log.
+2024-10-03 11:58:20 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-03 11:58:20 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-03 11:58:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-03 11:58:20 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-03 11:58:20 0 [Note] InnoDB: log sequence number 137034; transaction id 107
+2024-10-03 11:58:20 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 11:58:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-03 11:58:20 0 [Note] InnoDB: Buffer pool(s) load completed at 241003 11:58:20
+2024-10-03 11:58:20 0 [Note] Server socket created on IP: '::'.
+2024-10-03 11:58:20 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-03 11:58:20 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-03 12:58:31 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 24952
+2024-10-03 12:58:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-03 12:58:31 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-03 12:58:31 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-03 12:58:31 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-03 12:58:31 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-03 12:58:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-03 12:58:31 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-03 12:58:31 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-03 12:58:31 0 [Note] InnoDB: Starting final batch to recover 64 pages from redo log.
+2024-10-03 12:58:31 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-03 12:58:31 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-03 12:58:31 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-03 12:58:31 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-03 12:58:31 0 [Note] InnoDB: log sequence number 150460; transaction id 132
+2024-10-03 12:58:31 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 12:58:31 0 [Note] InnoDB: Buffer pool(s) load completed at 241003 12:58:31
+2024-10-03 12:58:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-03 12:58:31 0 [ERROR] libmariadbd-10.11.4.so: Warning: Can't copy ownership for file './ddl_recovery-backup.log' (Errcode: 1 "Operation not permitted")
+2024-10-03 12:58:31 0 [Note] Server socket created on IP: '::'.
+2024-10-03 12:58:31 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-03 12:58:31 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-03 13:09:08 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so (initiated by: unknown): Normal shutdown
+2024-10-03 13:09:08 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-10-03 13:09:08 0 [Note] InnoDB: Starting shutdown...
+2024-10-03 13:09:08 0 [Note] InnoDB: Dumping buffer pool(s) to /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 13:09:08 0 [Note] InnoDB: Buffer pool(s) dump completed at 241003 13:09:08
+2024-10-03 19:19:04 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 10177
+2024-10-03 19:19:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-03 19:19:04 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-03 19:19:04 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-03 19:19:04 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-03 19:19:04 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-03 19:19:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-03 19:19:04 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-03 19:19:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=46590
+2024-10-03 19:19:04 0 [Note] InnoDB: Starting final batch to recover 73 pages from redo log.
+2024-10-03 19:19:04 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-03 19:19:04 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-03 19:19:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-03 19:19:04 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-03 19:19:04 0 [Note] InnoDB: log sequence number 167732; transaction id 173
+2024-10-03 19:19:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-03 19:19:04 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 19:19:04 0 [Note] InnoDB: Buffer pool(s) load completed at 241003 19:19:04
+2024-10-03 19:19:04 0 [Note] Server socket created on IP: '::'.
+2024-10-03 19:19:04 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-03 19:19:04 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-03 22:44:49 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 9060
+2024-10-03 22:44:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-03 22:44:49 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-03 22:44:49 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-03 22:44:49 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-03 22:44:49 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-03 22:44:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-03 22:44:49 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-03 22:44:49 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=56104
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-70e6-15.ibd' with space ID 15. Another data file called ./blogr/posts.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-70e6-15.ibd' with space ID 15. Another data file called ./blogr/posts.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-70e6-15.ibd' with space ID 15. Another data file called ./blogr/posts.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-590-3.ibd' with space ID 17. Another data file called ./blogr/users.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-590-3.ibd' with space ID 17. Another data file called ./blogr/users.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-590-3.ibd' with space ID 17. Another data file called ./blogr/users.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-590-4.ibd' with space ID 18. Another data file called ./blogr/comments.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-590-4.ibd' with space ID 18. Another data file called ./blogr/comments.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Ignoring data file './blogr/#sql-alter-590-4.ibd' with space ID 18. Another data file called ./blogr/comments.ibd exists with the same space ID.
+2024-10-03 22:44:49 0 [Note] InnoDB: Starting final batch to recover 75 pages from redo log.
+2024-10-03 22:44:49 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-03 22:44:49 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-03 22:44:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-03 22:44:50 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-03 22:44:50 0 [Note] InnoDB: log sequence number 179229; transaction id 197
+2024-10-03 22:44:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-03 22:44:50 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 22:44:50 0 [ERROR] libmariadbd-10.11.4.so: Warning: Can't copy ownership for file './ddl_recovery-backup.log' (Errcode: 1 "Operation not permitted")
+2024-10-03 22:44:50 0 [Note] InnoDB: Buffer pool(s) load completed at 241003 22:44:50
+2024-10-03 22:44:50 0 [Note] Server socket created on IP: '::'.
+2024-10-03 22:44:50 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-03 22:44:50 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-03 22:59:27 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so (initiated by: unknown): Normal shutdown
+2024-10-03 22:59:27 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-10-03 22:59:27 0 [Note] InnoDB: Starting shutdown...
+2024-10-03 22:59:27 0 [Note] InnoDB: Dumping buffer pool(s) to /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-03 22:59:27 0 [Note] InnoDB: Buffer pool(s) dump completed at 241003 22:59:27
+2024-10-03 22:59:27 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-03 22:59:27 0 [Note] InnoDB: Shutdown completed; log sequence number 184110; transaction id 214
+2024-10-03 22:59:27 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: Shutdown complete
+
+2024-10-05  7:26:37 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 28869
+2024-10-05  7:26:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-05  7:26:37 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-05  7:26:37 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-05  7:26:37 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-05  7:26:37 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-05  7:26:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-05  7:26:37 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-05  7:26:38 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-05  7:26:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-05  7:26:38 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-05  7:26:38 0 [Note] InnoDB: log sequence number 184110; transaction id 215
+2024-10-05  7:26:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-05  7:26:38 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-05  7:26:38 0 [Note] Server socket created on IP: '::'.
+2024-10-05  7:26:38 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-05  7:26:38 0 [Note] InnoDB: Buffer pool(s) load completed at 241005  7:26:38
+2024-10-05  7:26:38 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-05  7:56:50 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 32367
+2024-10-05  7:56:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-05  7:56:50 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-05  7:56:50 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-05  7:56:50 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-05  7:56:50 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-05  7:56:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-05  7:56:50 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-05  7:56:50 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-05  7:56:50 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-05  7:56:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-05  7:56:50 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-05  7:56:50 0 [Note] InnoDB: log sequence number 184110; transaction id 215
+2024-10-05  7:56:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-05  7:56:50 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-05  7:56:50 0 [ERROR] libmariadbd-10.11.4.so: Warning: Can't copy ownership for file './ddl_recovery-backup.log' (Errcode: 1 "Operation not permitted")
+2024-10-05  7:56:50 0 [Note] InnoDB: Buffer pool(s) load completed at 241005  7:56:50
+2024-10-05  7:56:50 0 [Note] Server socket created on IP: '::'.
+2024-10-05  7:56:50 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-05  7:56:50 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-05  8:37:49 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 6595
+2024-10-05  8:37:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-05  8:37:49 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-05  8:37:49 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-05  8:37:49 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-05  8:37:49 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-05  8:37:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-05  8:37:49 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-05  8:37:49 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-05  8:37:49 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-05  8:37:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-05  8:37:49 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-05  8:37:49 0 [Note] InnoDB: log sequence number 184110; transaction id 215
+2024-10-05  8:37:49 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-05  8:37:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-05  8:37:49 0 [Note] Server socket created on IP: '::'.
+2024-10-05  8:37:49 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-05  8:37:49 0 [Note] InnoDB: Buffer pool(s) load completed at 241005  8:37:49
+2024-10-05  8:37:49 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server
+2024-10-05 23:31:49 0 [Note] Starting MariaDB 10.11.4-MariaDB source revision 4e2b93dffef2414a11ca5edc8d215f57ee5010e5 as process 25417
+2024-10-05 23:31:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-10-05 23:31:49 0 [Note] InnoDB: Number of transaction pools: 1
+2024-10-05 23:31:49 0 [Note] InnoDB: Using generic crc32 instructions
+2024-10-05 23:31:49 0 [Note] libmariadbd-10.11.4.so: O_TMPFILE is not supported on /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/tmp (disabling future attempts)
+2024-10-05 23:31:49 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-10-05 23:31:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-05 23:31:49 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+2024-10-05 23:31:49 0 [Note] InnoDB: 128 rollback segments are active.
+2024-10-05 23:31:49 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2024-10-05 23:31:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-10-05 23:31:49 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-10-05 23:31:50 0 [Note] InnoDB: log sequence number 184110; transaction id 215
+2024-10-05 23:31:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-10-05 23:31:50 0 [Note] InnoDB: Loading buffer pool(s) from /storage/emulated/0/Venter/HopWeb/Projects/BlogR/.hopweb/mysql/data/ib_buffer_pool
+2024-10-05 23:31:50 0 [Note] Server socket created on IP: '::'.
+2024-10-05 23:31:50 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-05 23:31:50 0 [Note] InnoDB: Buffer pool(s) load completed at 241005 23:31:50
+2024-10-05 23:31:50 0 [Note] /data/app/com.venter.hopweb-GI0If0OxIVngOPxyKd-FfQ==/lib/arm64/libmariadbd-10.11.4.so: ready for connections.
+Version: '10.11.4-MariaDB'  socket: '/data/data/com.venter.hopweb/files/mysql/mysql.sock'  port: 3306  MariaDB Server

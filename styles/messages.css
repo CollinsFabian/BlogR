@@ -1,0 +1,191 @@
+@import "header.css";
+
+body {
+    color: #000000;
+    padding: 0px;
+    background-color: #eee;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 1280px;
+    //height: 100%;
+    box-sizing: border-box;
+
+}
+
+.msgs {
+    font-size: 10pt;
+    color: #ddd !important;
+    text-decoration: underline .5px;
+}
+
+.unopened-msgs {
+    font-size: normal;
+    color: mediumblue !important;
+}
+
+.mred {
+    color: red !important;
+}
+
+.msgdiv {
+    background-color: rgb(0, 124, 124);
+    color: #ccc;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0 55px;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 360px) {
+    .smsgdiv {
+        background-color: rgb(0, 124, 124);
+        color: #ddd;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 40px;
+        margin: 0 30px;
+        padding: 0 0 35px 0;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 13pt;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .smsgdiv > :nth-child(2){
+        margin: 7px 3px;
+        line-height: 25px;
+    }
+
+    #anonyp {
+        background-color: #222;
+        color: #ccc;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .smsgdiv {
+        background-color: rgb(0, 124, 124);
+        color: #ddd;
+        text-align: center;
+        border: 2px solid #000;
+        border-radius: 40px;
+        margin: 0 180px;
+        padding: 0 0 40px 0;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size: 16pt;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .smsgdiv > :nth-child(2){
+        margin: 4px 5px;
+    }
+
+    #anonyp {
+        background-color: #222;
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        margin: 0;
+    }
+
+    .msgs {
+        font-size: 14pt;
+    }
+}
+
+.timestamp {
+    text-align: inherit;
+    font-size: small;
+}
+
+.content {
+    bottom: 0;
+    padding: 1px 10px 10px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+.content h3 {
+    font-weight: bold;
+    font-family: Times;
+}
+
+.content h4 {
+    margin-bottom: .5px;
+}
+
+hr {
+    background-color: teal;
+    width: 90vw;
+}
+
+hr:last-of-type {
+    display: none;
+}
+
+.share {
+    text-align: center;
+
+}
+
+.share p {
+    font-weight: bold;
+    color: black;
+}
+
+.share sh {
+    word-spacing: 3vw;
+}
+
+#whatsapp {
+    color: darkgreen;
+}
+
+#fb {
+    color: mediumblue;
+    border-radius: 80%;
+}
+
+#tgram {
+    color: steelblue;
+}
+
+#whatsapp,
+#fb,
+#tgram {
+    font-size: 25pt;
+}
+
+#download {
+    font-size: 20pt;
+    color: black;
+}
+
+footer {}

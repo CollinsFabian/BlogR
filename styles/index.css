@@ -1,0 +1,163 @@
+@import "header.css";
+
+body {
+    color: #000000;
+    padding: 0px;
+    background-color: #eee;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 360px) {
+    .msgimg {
+        height: 340px;
+        width: 280px;
+        object-fit: cover;
+        // filter: saturate(130%);
+    }
+
+    .msgimgcntnr {
+        margin: 34px 28px;
+        border-radius: 3% 3%;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .msgimg {
+        height: 100%;
+        width: 80%;
+        object-fit: cover;
+    }
+
+    .msgimgcntnr {
+        margin: 44px 78px;
+        padding: 50px auto;
+        width: auto;
+        height: 500px;
+        border-radius: 3% 3%;
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+.login>a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00C6FF;
+}
+
+.login {
+    color: #000;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+h3 {
+    color: #444;
+}
+
+.content-1 :first-child {
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Mufferaw;
+}
+
+.content-1 {
+    color: #eee;
+    position: relative;
+    background-color: rgb(0, 124, 124);
+    padding: 1px 10px 10px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: Times;
+}
+
+.content-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.content-section p,
+.content-section ul,
+.content-section blockquote {
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+.content-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.content-section blockquote {
+    background: #f7f7f7;
+    border-left: 10px solid #bbb;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+}
+
+.content-section blockquote p {
+    display: inline;
+    font-size: 14px;
+    color: #333;
+}
+
+.content-section blockquote cite {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+}
+
+.ad {
+    width: 100px;
+    margin-right: -10px;
+    margin-left: -10px;
+    height: 80px;
+    position: relative;
+    right: 0;
+    z-index: 90;
+}
+
+.footer {
+    text-decoration: noe;
+    height: 5vh;
+    position: relative;
+}
+
+.footer-div {
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.footer>div>a {
+    line-height: 25px;
+    letter-spacing: .7px;
+    font-weight: 3px;
+    font-size: small;
+}

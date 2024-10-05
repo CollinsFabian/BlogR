@@ -1,0 +1,134 @@
+root {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    color: #fff;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+body,
+.formdiv {
+    background: url("../images/loginpic.jpg") 0 / cover repeat;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+
+form {
+    font-family: monospace;
+    text-align: center;
+    height: 350px;
+    border-radius: 30px 30px;
+    padding-top: 0;
+    margin: 0 25px 0 25px;
+}
+
+legend {
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    float: center;
+    font-family: monospace;
+    font-weight: bold;
+    margin: -10px;
+    padding-top: 9px;
+}
+
+input {
+    height: 20px;
+    width: 95%;
+    border-radius: 5px;
+    border-color: black;
+    margin-top: 7px;
+    font-family: monospace;
+}
+
+:required:after {
+    content: " ( * ) ";
+    color: red;
+}
+
+h4.resetpage {
+    text-align: center;
+    font-size: small;
+}
+
+button[type="submit"] {
+    text-align: center;
+}
+
+button[type="submit"] {
+    color: #fff;
+    background-color: #555;
+    height: 25px;
+    width: 60px;
+    border-radius: .5em;
+    box-shadow: 0px 0px 5px .1em gray;
+    margin-top: 10px;
+    border-color: #555;
+    outline: 3px solid none;
+    outline-style: 30px 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    color: #333;
+    background-color: #eee;
+    font-family: monospace;
+    margin-right: 0px;
+}
+
+label {
+    text-align: left !important;
+    float: left;
+    padding: 0 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #4D2EFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body ::selection {
+    color: white;
+    background-color: rgba(0, 0, 225, .67);
+}
+
+
+.form1 {
+    position: relative;
+    background: hsla(0, 0%, 100%, .2);
+    z-index: 28888;
+}
+
+.formdiv {
+    background-color: white;
+}
+
+.formdiv::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(20px);
+    margin: 1px;
+}
+
+.out {
+    color: red;
+    text-align: center;
+}
+
+
+footer {}

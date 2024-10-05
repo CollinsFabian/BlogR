@@ -1,0 +1,111 @@
+*************************************
+
+CREATE DATABASE blogr;
+
+USE blogr;
+
+CREATE TABLE users (
+  user_id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) UNIQUE NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  profile_image VARCHAR(255),
+  bio TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+ALTER TABLE users CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE TABLE posts (
+  post_id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  title VARCHAR(255),
+  content TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+);
+
+ALTER TABLE posts CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE TABLE media (
+  media_id INT AUTO_INCREMENT PRIMARY KEY,
+  post_id INT,
+  file_path VARCHAR(255),
+  file_type VARCHAR(50), -- Could store 'image', 'gif', etc.
+  uploaded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE
+);
+
+CREATE TABLE followings (
+  follower_id INT,
+  following_id INT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (follower_id, following_id),
+  FOREIGN KEY (follower_id) REFERENCES users(user_id) ON DELETE CASCADE,
+  FOREIGN KEY (following_id) REFERENCES users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE ads (
+  ad_id INT AUTO_INCREMENT PRIMARY KEY,
+  ad_image VARCHAR(255),
+  ad_link VARCHAR(255),
+  start_date TIMESTAMP,
+  end_date TIMESTAMP
+);
+
+CREATE TABLE comments (
+  comment_id INT AUTO_INCREMENT PRIMARY KEY,
+  post_id INT,
+  user_id INT,
+  parent_comment_id INT DEFAULT NULL, -- Allows replies by linking back to the original comment
+  comment_text TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+  FOREIGN KEY (parent_comment_id) REFERENCES comments(comment_id) ON DELETE CASCADE
+);
+
+ALTER TABLE comments CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+CREATE TABLE reactions (
+  reaction_id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  post_id INT DEFAULT NULL,
+  comment_id INT DEFAULT NULL,
+  reaction_type ENUM('upvote', 'downvote') NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+  FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE,
+  FOREIGN KEY (comment_id) REFERENCES comments(comment_id) ON DELETE CASCADE
+);
+
+CREATE TABLE tags (
+  tag_id INT AUTO_INCREMENT PRIMARY KEY,
+  tag_name VARCHAR(50) UNIQUE NOT NULL
+);
+
+CREATE TABLE post_tags (
+  post_id INT,
+  tag_id INT,
+  PRIMARY KEY (post_id, tag_id),
+  FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE,
+  FOREIGN KEY (tag_id) REFERENCES tags(tag_id) ON DELETE CASCADE
+);
+
+CREATE TABLE post_views (
+  view_id INT AUTO_INCREMENT PRIMARY KEY,
+  post_id INT,
+  user_id INT,
+  viewed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE,
+  FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+);
+
+
+
+CREATE TABLE feedback (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    message TEXT NOT NULL
+);
+*************************************
