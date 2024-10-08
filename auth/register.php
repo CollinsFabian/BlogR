@@ -5,7 +5,12 @@ require 'Sanitizer/sanitizer.php';
 require '../classes/User.php';
 $output = '';
 $_SESSION['output'] = '';
-
+//If user session started (logged-in), redirect to homepage.
+if (isset($_SESSION['user_id']))
+{
+    header("location: ../");
+    exit;
+}
 // Create a new instance of the User class
 $user = new User($conn);
 if ($_SERVER["REQUEST_METHOD"] == "POST")
@@ -27,22 +32,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 <title>Login/Signup</title>
 </head>
 <body>
-<h2>Anony</h2>
-<div class="formdiv">
+<h2>BlogR</h2>
+<div class="formdiv" onsubmit="return checkpwd()">
 <form method="post" action="register.php" class="form1">
 <legend>Sign Up </legend><br>
-<?php echo $_SESSION['output'];
+<div id="output" style="color: tan;"><?php echo $_SESSION['output'];
 ?>
+</div>
 <label>Username</label><br>
 <input type="text" name="username" placeholder="Username" required autocomplete="true"><br><br>
 <label>E-mail</label><br>
 <input type="email" name="email" placeholder="E-mail" required autocomplete="true"><br><br>
 <label>Password</label><br>
-<input type="password" name="password" placeholder="Password" required><br>
-<button type="submit" value="Submit">Register</button>
+<input type="password" name="password" id="password" placeholder="Password" required onkeyup="checkpwd()"><br>
+<button type="submit" id="submit" value="Submit">Register</button>
 <h4>Already have an account? <a href="login.php">Log in</a></h4>
 <h4><a href="rstpwd.php" class="rstpwd">Forgot password?</a></h4>
 </form>
 </div>
+<script src="../javascript/chkpwd.js"></script>
 </body>
 </html>
