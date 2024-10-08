@@ -1,0 +1,165 @@
+body {
+    background-color: #eaeaea;
+    background-attachment: fixed;
+    color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    position: absolute;
+    font-size: 10pt;
+    font-family: sans-serif;
+    //box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #008080;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    //height: 40px;
+    width: 100%;
+    background-color: #008080;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+#header>h1 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 3px;
+    color: #000;
+}
+
+.logo {
+    float: left;
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.search {
+    margin-top: 0;
+    margin-right: 25px;
+    margin-left: 0;
+    float: right;
+    padding-top: 0px;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.postdiv {
+    text-align: right;
+}
+
+.postdiv>input {
+    height: 25px;
+}
+
+.createpost {
+    column-width: 30px;
+    text-height: 15px;
+    width: 95%;
+}
+
+a {
+    color: #4682b4;
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    background-color: #008080;
+    left: 0;
+    right: 0;
+    padding-top: 37px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-area: "header header header header";
+    box-sizing: border-box;
+}
+
+nav>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Active link style */
+nav>a:active {
+    font-weight: bold;
+}
+
+.blog-section {
+    margin: 20px 0;
+}
+
+.blog-entry {
+    margin-bottom: 30px;
+
+}
+
+.blogimgcntnr {
+    //border: .1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+
+}
+
+.blogimg {
+    width: 250px;
+    height: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.blog-entry h3 {
+    margin-top: 10px;
+}
+
+.blog-entry p {
+    color: #777;
+}
+
+.blog-entry a {
+    color: teal;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content {
+    text-align: justify;
+}
+
+.register {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #555;
+    padding: 1%;
+    color: #fff;
+    text-align: center;
+    bottom: 10px;
+    position: bottom;
+}

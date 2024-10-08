@@ -1,9 +1,9 @@
 <?php
+session_start();
 require '../Database/Config/config.php';
 require 'Sanitizer/sanitizer.php';
 require '../classes/User.php';
 $output = '';
-session_start();
 //If user session started (logged-in), redirect to homepage.
 if (isset($_SESSION['user_id']))
 {
@@ -20,13 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     // Attempt to login the user
     if ($user->login($email, $password))
     {
-        header("Location: ../dashboard.php");
-        // Redirect to dashboard
+        header("Location: ../");
         exit();
     }
     else
     {
-        $output = "<p style=\"color: red;font-weight: bold;\">Login failed. Invalid credentials.</p>";
+        $output = "<p style='color: red;font-weight: bold;'>Login failed. Invalid credentials.</p>";
     }
 }
 ?>
@@ -40,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 <title>Login/Signup</title>
 </head>
 <body>
-<h2>Anony</h2>
+<h2>BlogR</h2>
 <div class="formdiv">
 <form method="post" class="form1">
 <legend>Login</legend><br>
@@ -49,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 <label>E-mail </label><br>
 <input type="email" name="email" placeholder=" E-mail" required="required" autocomplete="true"><br><br>
 <label>Password </label><br>
-<input type="password" name="password" placeholder=" Password" required><br>
+<input type="password" name="password" id="password" placeholder=" Password" required><br>
 <button type="submit" value="Submit">Login</button><br><br />
 <h4>Don't have an account? <a href="register.php">Signup</a></h4>
 <h4><a href="rstpwd.php" class="rstpwd">Forgot password?</a></h4>
